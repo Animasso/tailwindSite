@@ -22,11 +22,23 @@ const SuperQuality = () => {
           Our dedication to detail and excellence ensure your satisfation
         </p>
         <div className=" mt-11 ">
-          <Button label="View details" />
+          <Button
+            label="View details"
+            borderColor="border-coral-red"
+            textColor="text-white"
+            hover="bg-red-500"
+            backgroundColor="bg-coral-red"
+          />
         </div>
       </div>
       <div className=" flex flex-1 justify-center items-center">
-        <img src={shoe8} alt="offer" />
+        <img
+          src={shoe8}
+          alt="offer"
+          xidth={570}
+          height={522}
+          className=" object-contain"
+        />
       </div>
     </section>
   );
